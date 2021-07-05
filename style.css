@@ -31,11 +31,19 @@ section{
     margin-bottom: 10rem;
 }
 footer{
-    background-color: #f87e63;
+    background-color: orangered;
     color: white;
     font-size: 1.6rem;
     text-align: center;
     padding: .5rem;
+}
+.text-grad{
+    background-image: linear-gradient(to right, orangered, orange);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.text-grad:hover{
+    background-image: linear-gradient(to right, blue, steelblue);
 }
 .flex-display{
     display: flex;
@@ -67,12 +75,10 @@ footer{
 }
 .welcome-section img {
     width: 80%;
+    transition: all 1s;
 }
 .welcome-texts{
     padding: 5rem 12rem;
-}
-.welcome-texts span{
-    color: orangered;
 }
 .welcome-section{
     background-image: url('img/web-corner-top-left.png');
@@ -126,9 +132,6 @@ footer{
 .experience-card:last-child{
     margin: 0 7% 0 3% ;
     border-image: linear-gradient(to top, steelblue, blue) 1;
-}
-.experience h3{
-    color: orangered;
 }
 
 ::-webkit-scrollbar{
