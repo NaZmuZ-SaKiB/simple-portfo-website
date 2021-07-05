@@ -1,10 +1,18 @@
 @echo off
-echo gittu paking
-git add .
-echo now starting commit
 set /P commit=Enter your Commit Description :- 
+echo ------------------
+echo -- gittu paking --
+echo ------------------
+git add .
+echo ---------------------------
+echo --- now starting commit ---
+echo ---------------------------
 git commit -m "%commit%"
-echo Gittu Mia  pusshing
+echo ---------------------------
+echo --- Gittu Mia  pusshing ---
+echo ---------------------------
 git push
-echo Gittu pakano shesh
+echo --------------------------
+echo ------- গিট্টু পাকানো শেষ --------------
+echo --------------------------
 pause
