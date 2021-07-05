@@ -74,19 +74,19 @@ footer{
 .welcome-texts p{
     margin-bottom: 1.5rem;
 }
-.hera-pheri{
+.dream-big{
     background-image: url('img/web-half-right.png');
     background-repeat: no-repeat;
     background-position: right;
 }
-.hera-pheri img{
+.dream-big img{
     padding-left: 12rem;
 }
-.hera-pheri p{
+.dream-big p{
     padding-right: 12rem;
     margin-bottom: 1.5rem;
 }
-.hera-pheri-text{
+.dream-big-text{
     padding-top: 10rem;
 }
 .full-width{
