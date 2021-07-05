@@ -1,18 +1,20 @@
 @echo off
-set /P commit=Enter your Commit Description :- 
+echo ---------------------------
+set /P commit=Commit er Description De :-
+echo ---------------------------
 echo ------------------
 echo -- gittu paking --
 echo ------------------
 git add .
 echo ---------------------------
-echo --- now starting commit ---
+echo --- Now Starting Commit ---
 echo ---------------------------
 git commit -m "%commit%"
 echo ---------------------------
-echo --- Gittu Mia  pusshing ---
+echo --- Gittu Mia  Pusshing ---
 echo ---------------------------
 git push
 echo --------------------------
-echo ------- গিট্টু পাকানো শেষ --------------
+echo --- Gittu Pakano Shesh ---
 echo --------------------------
 pause
