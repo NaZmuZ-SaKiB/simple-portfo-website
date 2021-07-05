@@ -46,16 +46,24 @@ footer{
 .btn-primary{
     display: inline-block;
     color: white;
-    background-image: linear-gradient(to right, lightsalmon, tomato);
+    background-image: linear-gradient(to right, orangered, red);
     text-decoration: none;
     font-size: 1.6rem;
     text-transform: uppercase;
     padding: 10px 40px;
     border-radius: 3px;
     font-weight: 700;
+    transition: all .2s;
+}
+.btn-primary:hover{
+    background-image: linear-gradient(to bottom, rgb(0, 140, 255), blue);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .4);
+    transform: translateY(-3px);
 }
 .btn-primary:active{
     transform: scale(.97);
+    box-shadow: 0 5px 1.5rem rgba(0, 0, 0, .5);
+    transform: translateY(-1px);
 }
 .welcome-section img {
     width: 80%;
@@ -64,7 +72,7 @@ footer{
     padding: 5rem 12rem;
 }
 .welcome-texts span{
-    color: orange;
+    color: orangered;
 }
 .welcome-section{
     background-image: url('img/web-corner-top-left.png');
@@ -104,8 +112,12 @@ footer{
     background-size: 20%;
     width: 40%;
     padding: 5rem 5rem 10rem;
-    box-shadow: .5rem 1rem 2rem rgba(0, 0, 0, .5);
+    box-shadow: .5rem 1.5rem 3rem rgba(0, 0, 0, .5);
     border-left: .8rem solid;
+    transition: all .2s;
+}
+.experience-card:hover{
+    box-shadow: .5rem 1rem 1.5rem rgba(0, 0, 0, .6);
 }
 .experience-card:first-child{
     margin: 0 3% 0 7% ;
@@ -116,7 +128,7 @@ footer{
     border-image: linear-gradient(to top, steelblue, blue) 1;
 }
 .experience h3{
-    color: orange;
+    color: orangered;
 }
 
 ::-webkit-scrollbar{

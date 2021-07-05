@@ -1,10 +1,10 @@
 @echo off
-echo git adding
+echo gittu paking
 git add .
 echo now starting commit
 set /P commit=Enter your Commit Description :- 
 git commit -m "%commit%"
-echo git pusshing
+echo Gittu Mia  pusshing
 git push
-
+echo Gittu pakano shesh
 pause
